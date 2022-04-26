@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: cursive;
+}
+
+div, section, span, ul, li, a, header {
+    box-sizing: border-box;
+} 
+
+/**css reset*/
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+
+#home {
+    background: url(images/home.jpg) no-repeat center center / cover;
+}
+
+#about {
+    background: url(images/malala-about.jpg) no-repeat center center / cover;
+}
+
+#courage {
+    background: url(images/malala-courage.jpg) no-repeat center center / cover;
+}
+
+#hope {
+    background: url(images/malala-hope.jpg) no-repeat center center / cover;
+}
+
+#inspirations {
+    background: url(images/malala-inspire.jpg) no-repeat center center / cover;
+}
+
+#art-statement {
+    background: url(images/art-statement.jpg) no-repeat center center / cover;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+h2 {
+    font-size: small;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#desc1 {
+    font-size: small;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#desc2 {
+    font-size: small;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#desc3 {
+    font-size: small;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#desc4 {
+    font-size: small;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#title, #subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background: none;
+    font-weight: lighter;
+    font-style: italic;
+    color: #FAF9F6;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#artist-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-decoration: underline;
+    background: none;
+    font-weight: lighter;
+    font-style: italic;
+    color: #FAF9F6;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#artist-statement {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background: none;
+    font-weight: lighter;
+    font-style: italic;
+    color: #FAF9F6;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
